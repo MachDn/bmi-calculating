@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var a = prompt("당신의 신장을 입력해주세요(cm)");
+            var b = prompt("당신의 몸무게를 입력해주세요(솔직하게)");
+            var c = b / ((a / 100) * (a / 100));
+            document.write("당신의 BMI 지수는" + c + "입니다.");
+        </script>
+    </body>
+</html>
+
+<!-- # 프로젝트 참조
+1. 사용자에 키와 몸무게 입력 받을 창이 필요하다
+2. 입력된 데이터 계산하는 연산식이 필요
+3. 연산식 결과에 따라 bmi 지수가 어느정도인지 도출
+4. 산출된 결과 도출
+
+
+# BMI 프로그램 (python)
+print('BMI 계산 프로그램')
+print('==================')
+weight = float(input ('당신의 몸무게를 입력해주세요(솔직하게)'))
+height = float(input ('당신의 신장을 입력해주세요(cm)'))/100
+bmi = weight / (height*height) #height**2
+
+print('======결과요약======')
+
+print('몸무게: %f' % weight)
+print('키: %f' % height)
+print('당신의 bmi는 %.2f 입니다' % bmi)
+
+print('===================') -->
